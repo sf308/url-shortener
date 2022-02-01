@@ -1,5 +1,9 @@
+from datetime import datetime
+from core.models import ShortUrls
+from core import app, db
 from random import choice
 import string
+from flask import render_template, request, flash, redirect, url_for
 
 def generate_short_id(num_of_chars: int):
     """Function to generate short_id of specified number of characters"""
