@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+body{
+    font-family: Dongle, Arial;
+    background-color: #20a4cc;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50pt;
+    margin-bottom: -3%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+}
+
+input{
+    padding:2%;
+    border-radius: 3px;
+    border: none;
+}
+
+label{
+    margin-bottom: 3px;
+}
+
+button{
+    width: 30%;
+    border: none;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+footer p {
+    align-self: center;
+    margin: 0px 25px;
+}
+
+span{
+    margin-top: 20px;
+}
+
+a{
+    font-size: 20pt;
+    color: white;
+}
